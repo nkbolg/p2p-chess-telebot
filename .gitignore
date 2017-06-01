@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+
+
+/bottoken.py
+/.idea
+/__pycache__
