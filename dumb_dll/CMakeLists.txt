@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 2.8.9)
 
 
-project(DumbDLL)
+project(pyDll)
 
 set(sources DumbDLL.cpp)
 
 add_definitions(-DDUMBDLL_EXPORTS)
 
-add_library(DumbDLL SHARED ${sources})
+add_library(pyDll SHARED ${sources})
