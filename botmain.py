@@ -24,7 +24,7 @@ def on_text(bot: telegram.Bot, update: telegram.Update):
     if not suc:
         bot.send_message(cid, res)
     else:
-        bot.send_message(cid, "Valid")
+        bot.send_message(cid, "Function returned: " + str(res))
 
 
 def main():
